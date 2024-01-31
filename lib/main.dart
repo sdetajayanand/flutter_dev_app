@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:first_project/EquipmentsDetailsPage.dart';
 import 'package:first_project/eventsDetailPage.dart';
 import 'package:first_project/logOut.dart';
+import 'package:first_project/_logOut.dart';
 import 'package:flutter/material.dart';
 import 'PantryDetailsScreen.dart';
 
@@ -10,12 +11,11 @@ String userName = "Hey Ajay";
 
 void main() => runApp(MaterialApp(
   debugShowCheckedModeBanner: false,
-  home: TvHome(),
+  home: Starter()
 ));
 
-class TvHome extends StatelessWidget {
-  const TvHome({super.key});
 
+class TvHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,7 +40,7 @@ class TvHome extends StatelessWidget {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => logOut(),
+                        builder: (context) => Starter(),
                       ),
                     );
                   },

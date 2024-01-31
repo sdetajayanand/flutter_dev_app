@@ -1,10 +1,15 @@
+import 'package:first_project/main.dart';
+import 'package:first_project/_logOut.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class logOut extends StatelessWidget {
+class logOut extends State<Starter>{
+
   @override
   Widget build(BuildContext context) {
+    TextEditingController emailField = TextEditingController();
+    TextEditingController passwordField = TextEditingController();
     return Scaffold(
       backgroundColor: Colors.blueAccent[400],
       body: Stack(
@@ -43,10 +48,11 @@ class logOut extends StatelessWidget {
               child: Column(
                 children: [
                   TextField(
+                    controller: emailField,
                     decoration: InputDecoration(
                       fillColor: Colors.grey[700],
                       hintText: 'EMAIL',
-                      filled: true,
+                      //filled: true,
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10),
                       )
@@ -54,10 +60,11 @@ class logOut extends StatelessWidget {
                   ),
                   SizedBox(height: 30.0,),
                   TextField(
+                    controller: passwordField,
                     obscureText: true,
                     decoration: InputDecoration(
                         fillColor: Colors.grey[700],
-                        hintText: 'PASSWORD',
+                        //hintText: 'PASSWORD',
                         filled: true,
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
@@ -79,7 +86,12 @@ class logOut extends StatelessWidget {
                         radius: 30.0,
                         backgroundColor: Colors.grey[700],
                         child: IconButton(
-                          onPressed: () {},
+                          onPressed: () {
+                            if(emailField.text == 'sample@gmail.com' && passwordField.text == 'pass123')
+                              {
+                                Navigator.push(context, MaterialPageRoute(builder: (context)=> TvHome()));
+                              }
+                          },
                           icon: Icon(Icons.arrow_forward),
                         )
                       )
@@ -109,3 +121,4 @@ class logOut extends StatelessWidget {
     );
   }
 }
+
