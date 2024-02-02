@@ -1,4 +1,16 @@
-#Wed Jan 31 15:42:35 IST 2024
-base.0=/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Fri Feb 02 11:28:55 IST 2024
+base.0=/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
+base.2=/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.3=/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.4=/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/app/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
 path.0=classes.dex
+path.1=0/classes.dex
+path.2=0/classes.dex
+path.3=1/classes.dex
+path.4=6/classes.dex
 renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex
+renamed.4=classes5.dex

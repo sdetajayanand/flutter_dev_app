@@ -62,6 +62,18 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Users/TestVagrant-1/Documents/Flutter/sdk/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
+    },
+    {
+      "name": "fluttertoast",
+      "rootUri": "file:///Users/TestVagrant-1/.pub-cache/hosted/pub.dev/fluttertoast-8.2.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "lints",
       "rootUri": "file:///Users/TestVagrant-1/.pub-cache/hosted/pub.dev/lints-2.1.1",
       "packageUri": "lib/",
@@ -152,7 +164,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-01-25T10:15:57.111436Z",
+  "generated": "2024-02-02T05:51:07.921822Z",
   "generator": "pub",
-  "generatorVersion": "3.2.4"
+  "generatorVersion": "3.2.6"
 }

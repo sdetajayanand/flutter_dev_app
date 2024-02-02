@@ -3,6 +3,7 @@ import 'package:first_project/_logOut.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class logOut extends State<Starter>{
 
@@ -52,7 +53,7 @@ class logOut extends State<Starter>{
                     decoration: InputDecoration(
                       fillColor: Colors.grey[700],
                       hintText: 'EMAIL',
-                      //filled: true,
+                      filled: true,
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(10),
                       )
@@ -64,7 +65,7 @@ class logOut extends State<Starter>{
                     obscureText: true,
                     decoration: InputDecoration(
                         fillColor: Colors.grey[700],
-                        //hintText: 'PASSWORD',
+                        hintText: 'PASSWORD',
                         filled: true,
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
@@ -99,7 +100,17 @@ class logOut extends State<Starter>{
                   ),
                   Row(
                     children: [
-                      TextButton(onPressed: () {}, child: Text(
+                      TextButton(onPressed: () {
+                        Fluttertoast.showToast(
+                            msg: "We can't do anything if you forgot Password",
+                            toastLength: Toast.LENGTH_SHORT,
+                            gravity: ToastGravity.CENTER,
+                            timeInSecForIosWeb: 1,
+                            backgroundColor: Colors.red,
+                            textColor: Colors.white,
+                            fontSize: 16.0
+                        );
+                      }, child: Text(
                         'Forgot Password',
                         style: TextStyle(
                           color: Colors.white,

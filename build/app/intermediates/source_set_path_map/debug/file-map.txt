@@ -10,3 +10,4 @@ com.example.first_project.app-rs-8 /Users/TestVagrant-1/Documents/Flutter/projec
 com.example.first_project.app-mergeDebugResources-9 /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
 com.example.first_project.app-mergeDebugResources-10 /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
 com.example.first_project.app-merged_res-11 /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/app/intermediates/merged_res/debug
+com.example.first_project.app-packaged_res-12 /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/fluttertoast/intermediates/packaged_res/debug
