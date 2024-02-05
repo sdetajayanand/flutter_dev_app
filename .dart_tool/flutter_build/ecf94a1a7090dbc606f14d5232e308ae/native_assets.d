@@ -1,0 +1,1 @@
+ /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/.dart_tool/flutter_build/ecf94a1a7090dbc606f14d5232e308ae/native_assets.yaml: 
