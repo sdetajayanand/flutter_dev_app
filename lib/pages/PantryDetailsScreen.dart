@@ -64,12 +64,18 @@ class PantryDetailsScreen extends StatelessWidget {
                       Expanded(child: Image.asset(product[index].image)),
                       ListTile(
 
-                        title:Text(product[index].name),
-                        trailing: ElevatedButton(
-                          onPressed: (){
+                        title:Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 1.0),
+                          child: Text(product[index].name),
+                        ),
+                        trailing: Padding(
+                          padding: const EdgeInsets.only(right: 0.0),
+                          child: ElevatedButton(
+                            onPressed: (){
 
-                          },
-                          child: Text('Add'),
+                            },
+                            child: Text('Add'),
+                          ),
                         ),
                       ),
                     ],
