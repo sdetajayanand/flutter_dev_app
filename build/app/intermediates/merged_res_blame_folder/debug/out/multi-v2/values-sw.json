@@ -4,7 +4,7 @@
             "outputFile": "com.example.first_project.app-mergeDebugResources-9:/values-sw/values-sw.xml",
             "map": [
                 {
-                    "source": "/Users/TestVagrant-1/.gradle/caches/transforms-3/d08c73bfb05384f2e52578171dbd141e/transformed/core-1.6.0/res/values-sw/values-sw.xml",
+                    "source": "/Users/TestVagrant-1/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/res/values-sw/values-sw.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
