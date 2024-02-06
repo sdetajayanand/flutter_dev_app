@@ -1,118 +1,118 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:2:5-32:19
-MERGED from [androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
-MERGED from [androidx.core:core:1.6.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.6.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/TestVagrant-1/.gradle/caches/transforms-3/6bc26d141b4af76d7c2a04a01172f535/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/TestVagrant-1/.gradle/caches/transforms-3/6bc26d141b4af76d7c2a04a01172f535/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml:2:5-32:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.6.0] /Users/testvagrant/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/testvagrant/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/testvagrant/.gradle/caches/transforms-3/6bc26d141b4af76d7c2a04a01172f535/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/testvagrant/.gradle/caches/transforms-3/6bc26d141b4af76d7c2a04a01172f535/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.6.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.6.0] /Users/testvagrant/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:1:1-33:12
-INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:1:1-33:12
-MERGED from [:fluttertoast] /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/f805ca68335f6a1f386399cde6392531/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
-MERGED from [androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/ccc9ce45f4ca917557126cbf8f3aa29a/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/2fc79d596546592140b30828b2c526f4/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/7bb11e49833e324aef1ca097ecb6bfab/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/2091d04afdeb3e7cc9aa43ba8038426d/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/d40d51fcf85dfb8a408b2ad0873ebd37/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.6.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/8d292586185e89c623b1ae6e412e72ae/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/23d37a08d38ed4d5e192e3d8b31283fb/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/ed5c0357002057f675f6cfb946622c74/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/70737ef820661983066ccbc569ecd07c/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/c07bb6023630e3211fd540c441a0d131/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/2389b57e1d9191dcc18bc554b4c6fa91/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/TestVagrant-1/.gradle/caches/transforms-3/6bc26d141b4af76d7c2a04a01172f535/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/25a294b4190d9e3f6c9c42fa36034207/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/67d18e2b23ce6f6133903a1b23f3c2a0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+ADDED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [:fluttertoast] /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/f805ca68335f6a1f386399cde6392531/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/testvagrant/.gradle/caches/transforms-3/ccc9ce45f4ca917557126cbf8f3aa29a/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/2fc79d596546592140b30828b2c526f4/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/7bb11e49833e324aef1ca097ecb6bfab/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/2091d04afdeb3e7cc9aa43ba8038426d/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/d40d51fcf85dfb8a408b2ad0873ebd37/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/testvagrant/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/testvagrant/.gradle/caches/transforms-3/8d292586185e89c623b1ae6e412e72ae/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/23d37a08d38ed4d5e192e3d8b31283fb/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/testvagrant/.gradle/caches/transforms-3/ed5c0357002057f675f6cfb946622c74/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/testvagrant/.gradle/caches/transforms-3/70737ef820661983066ccbc569ecd07c/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/c07bb6023630e3211fd540c441a0d131/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/testvagrant/.gradle/caches/transforms-3/2389b57e1d9191dcc18bc554b4c6fa91/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/testvagrant/.gradle/caches/transforms-3/6bc26d141b4af76d7c2a04a01172f535/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/testvagrant/.gradle/caches/transforms-3/25a294b4190d9e3f6c9c42fa36034207/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/testvagrant/.gradle/caches/transforms-3/67d18e2b23ce6f6133903a1b23f3c2a0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:1:1-33:12
-		INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:1:1-33:12
-		INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:1:1-33:12
-		INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-sdk
-INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml
-MERGED from [:fluttertoast] /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:fluttertoast] /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/f805ca68335f6a1f386399cde6392531/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/f805ca68335f6a1f386399cde6392531/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
-MERGED from [androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/ccc9ce45f4ca917557126cbf8f3aa29a/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/ccc9ce45f4ca917557126cbf8f3aa29a/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/2fc79d596546592140b30828b2c526f4/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/2fc79d596546592140b30828b2c526f4/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/7bb11e49833e324aef1ca097ecb6bfab/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/7bb11e49833e324aef1ca097ecb6bfab/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/2091d04afdeb3e7cc9aa43ba8038426d/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/2091d04afdeb3e7cc9aa43ba8038426d/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/d40d51fcf85dfb8a408b2ad0873ebd37/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/d40d51fcf85dfb8a408b2ad0873ebd37/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.6.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.6.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/8d292586185e89c623b1ae6e412e72ae/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/8d292586185e89c623b1ae6e412e72ae/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/23d37a08d38ed4d5e192e3d8b31283fb/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/23d37a08d38ed4d5e192e3d8b31283fb/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/ed5c0357002057f675f6cfb946622c74/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/ed5c0357002057f675f6cfb946622c74/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/70737ef820661983066ccbc569ecd07c/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/70737ef820661983066ccbc569ecd07c/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/c07bb6023630e3211fd540c441a0d131/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/c07bb6023630e3211fd540c441a0d131/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/2389b57e1d9191dcc18bc554b4c6fa91/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/2389b57e1d9191dcc18bc554b4c6fa91/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/TestVagrant-1/.gradle/caches/transforms-3/6bc26d141b4af76d7c2a04a01172f535/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/TestVagrant-1/.gradle/caches/transforms-3/6bc26d141b4af76d7c2a04a01172f535/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/25a294b4190d9e3f6c9c42fa36034207/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/25a294b4190d9e3f6c9c42fa36034207/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/67d18e2b23ce6f6133903a1b23f3c2a0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/67d18e2b23ce6f6133903a1b23f3c2a0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:fluttertoast] /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:fluttertoast] /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/f805ca68335f6a1f386399cde6392531/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/f805ca68335f6a1f386399cde6392531/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/testvagrant/.gradle/caches/transforms-3/ccc9ce45f4ca917557126cbf8f3aa29a/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/testvagrant/.gradle/caches/transforms-3/ccc9ce45f4ca917557126cbf8f3aa29a/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/2fc79d596546592140b30828b2c526f4/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/2fc79d596546592140b30828b2c526f4/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/7bb11e49833e324aef1ca097ecb6bfab/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/7bb11e49833e324aef1ca097ecb6bfab/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/2091d04afdeb3e7cc9aa43ba8038426d/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/2091d04afdeb3e7cc9aa43ba8038426d/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/d40d51fcf85dfb8a408b2ad0873ebd37/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/d40d51fcf85dfb8a408b2ad0873ebd37/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/testvagrant/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/testvagrant/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/testvagrant/.gradle/caches/transforms-3/8d292586185e89c623b1ae6e412e72ae/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/testvagrant/.gradle/caches/transforms-3/8d292586185e89c623b1ae6e412e72ae/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/23d37a08d38ed4d5e192e3d8b31283fb/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/23d37a08d38ed4d5e192e3d8b31283fb/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/testvagrant/.gradle/caches/transforms-3/ed5c0357002057f675f6cfb946622c74/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/testvagrant/.gradle/caches/transforms-3/ed5c0357002057f675f6cfb946622c74/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/testvagrant/.gradle/caches/transforms-3/70737ef820661983066ccbc569ecd07c/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/testvagrant/.gradle/caches/transforms-3/70737ef820661983066ccbc569ecd07c/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/c07bb6023630e3211fd540c441a0d131/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/testvagrant/.gradle/caches/transforms-3/c07bb6023630e3211fd540c441a0d131/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/testvagrant/.gradle/caches/transforms-3/2389b57e1d9191dcc18bc554b4c6fa91/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/testvagrant/.gradle/caches/transforms-3/2389b57e1d9191dcc18bc554b4c6fa91/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/testvagrant/.gradle/caches/transforms-3/6bc26d141b4af76d7c2a04a01172f535/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/testvagrant/.gradle/caches/transforms-3/6bc26d141b4af76d7c2a04a01172f535/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/testvagrant/.gradle/caches/transforms-3/25a294b4190d9e3f6c9c42fa36034207/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/testvagrant/.gradle/caches/transforms-3/25a294b4190d9e3f6c9c42fa36034207/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/testvagrant/.gradle/caches/transforms-3/67d18e2b23ce6f6133903a1b23f3c2a0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/testvagrant/.gradle/caches/transforms-3/67d18e2b23ce6f6133903a1b23f3c2a0/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/debug/AndroidManifest.xml:6:5-66
+ADDED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/debug/AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/debug/AndroidManifest.xml:6:22-64
+		ADDED from /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/android/app/src/debug/AndroidManifest.xml:6:22-64
 uses-library#androidx.window.extensions
-ADDED from [androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
 uses-library#androidx.window.sidecar
-ADDED from [androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+ADDED from [androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
 	android:required
-		ADDED from [androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+		ADDED from [androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51

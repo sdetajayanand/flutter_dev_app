@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class PantryDetailsScreen extends StatelessWidget {
+  PantryDetailsScreen({super.key});
 
   final List<Products> product = [
     Products('Britania', 'assets/britaniaCake.jpeg'),
@@ -19,7 +20,7 @@ class PantryDetailsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pantry Details'),
+        title: const Text('Pantry Details'),
       ),
       // body: GridView.builder(
       //     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
@@ -49,34 +50,39 @@ class PantryDetailsScreen extends StatelessWidget {
       // ),
       body: Padding(
         padding: const EdgeInsets.only(top: 50.0),
-        child: Container(
-          child: GridView.builder(
-              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 2,
-                crossAxisSpacing: 8.0,
-                mainAxisSpacing: 45.0,
-              ),
-              itemCount: product.length,
-              itemBuilder: (context, index) {
-                return Card(
-                  child: Column(
-                    children: [
-                      Expanded(child: Image.asset(product[index].image)),
-                      ListTile(
-
-                        title:Text(product[index].name),
-                        trailing: ElevatedButton(
-                          onPressed: (){
-
-                          },
-                          child: Text('Add'),
-                        ),
+        child: GridView.builder(
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2,
+              crossAxisSpacing: 8.0,
+              mainAxisSpacing: 45.0,
+            ),
+            itemCount: product.length,
+            itemBuilder: (context, index) {
+              return Card(
+                child: Column(
+                  children: [
+                    Expanded(
+                      child: Image.asset(product[index].image),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 3.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(product[index].name),
+                          ElevatedButton(
+                            onPressed: () {
+                              // Add button onPressed logic
+                            },
+                            child: const Text('Add'),
+                          ),
+                        ],
                       ),
-                    ],
-                  ),
-                );
-              }
-          ),
+                    ),
+                  ],
+                ),
+              );
+            }
         ),
       ),
     );

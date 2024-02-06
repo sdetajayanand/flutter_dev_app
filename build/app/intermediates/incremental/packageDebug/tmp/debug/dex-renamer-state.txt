@@ -1,9 +1,9 @@
-#Tue Feb 06 15:22:58 IST 2024
-base.0=/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
-base.2=/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.3=/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
-base.4=/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/app/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
+#Tue Feb 06 16:16:56 IST 2024
+base.0=/Users/testvagrant/Desktop/pantry_app/flutter_dev_app/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/testvagrant/Desktop/pantry_app/flutter_dev_app/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
+base.2=/Users/testvagrant/Desktop/pantry_app/flutter_dev_app/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.3=/Users/testvagrant/Desktop/pantry_app/flutter_dev_app/build/app/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex
+base.4=/Users/testvagrant/Desktop/pantry_app/flutter_dev_app/build/app/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=0/classes.dex
