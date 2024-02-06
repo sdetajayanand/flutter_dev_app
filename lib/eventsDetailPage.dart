@@ -8,7 +8,7 @@ class eventsDetailPage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Events Details'),
       ),
-      body: Center(
+      body: const Center(
         child: Text('Details about the Events'),
       ),
     );

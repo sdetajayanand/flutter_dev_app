@@ -50,7 +50,7 @@ class logOut extends State<Starter>{
                   TextField(
                     controller: emailField,
                     decoration: InputDecoration(
-                      fillColor: Colors.grey[700],
+                      fillColor: const Color.fromARGB(255, 232, 217, 217),
                       hintText: 'EMAIL',
                       //filled: true,
                       border: OutlineInputBorder(
@@ -58,24 +58,24 @@ class logOut extends State<Starter>{
                       )
                     ),
                   ),
-                  SizedBox(height: 30.0,),
+                  const SizedBox(height: 30.0,),
                   TextField(
                     controller: passwordField,
                     obscureText: true,
                     decoration: InputDecoration(
-                        fillColor: Colors.grey[700],
-                        //hintText: 'PASSWORD',
+                        fillColor: Color.fromARGB(255, 232, 217, 217),
+                        hintText: 'PASSWORD',
                         filled: true,
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(10),
                         )
                     ),
                   ),
-                  SizedBox(height: 40.0,),
+                  const SizedBox(height: 40),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text('SIGN IN',
+                      const Text('SIGN IN',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 20.0,
@@ -85,6 +85,7 @@ class logOut extends State<Starter>{
                       CircleAvatar(
                         radius: 30.0,
                         backgroundColor: Colors.grey[700],
+                        
                         child: IconButton(
                           onPressed: () {
                             if(emailField.text == 'sample@gmail.com' && passwordField.text == 'pass123')
@@ -93,6 +94,7 @@ class logOut extends State<Starter>{
                               }
                           },
                           icon: Icon(Icons.arrow_forward),
+                          
                         )
                       )
                     ],
