@@ -1,4 +1,0 @@
-#Fri Feb 02 11:34:46 IST 2024
-base.0=/Users/testvagrant/Desktop/pantry_app/flutter_dev_app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
