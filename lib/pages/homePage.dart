@@ -59,7 +59,7 @@ class TvHome extends StatelessWidget {
                   child: Column(
                     children: [
                       Image.asset(
-                        'assets/pantry.jpg',
+                        'assets/home/pantry.jpg',
                         height: 150.0,
                         width: 300.0,
                         fit: BoxFit.fill,
@@ -96,7 +96,7 @@ class TvHome extends StatelessWidget {
                   child: Column(
                     children: [
                       Image.asset(
-                        'assets/tabletennis.jpg',
+                        'assets/home/tabletennis.jpg',
                         height: 150.0,
                         width: 300.0,
                         fit: BoxFit.fill,
@@ -133,7 +133,7 @@ class TvHome extends StatelessWidget {
                   child: Column(
                     children: [
                       Image.asset(
-                        'assets/events.jpg',
+                        'assets/home/events.jpg',
                         height: 150.0,
                         width: 300.0,
                         fit: BoxFit.fill,

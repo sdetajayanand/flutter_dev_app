@@ -5,11 +5,14 @@ import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class Starter extends StatefulWidget {
+  const Starter({super.key});
   @override
-  logOut createState() => logOut();
+  State<Starter> createState(){
+    return _logOut();
+  }
 }
 
-class logOut extends State<Starter>{
+class _logOut extends State<Starter>{
 
   @override
   Widget build(BuildContext context) {
@@ -21,27 +24,33 @@ class logOut extends State<Starter>{
       body: Stack(
         children: [
           Container(
-            padding: EdgeInsets.only(top: 50.0, left: 20.0,),
+            padding: const EdgeInsets.only(top: 50.0, left: 20.0,),
             child: Row(
               children: <Widget>[
-                Image.asset('assets/tvlogo.png',
-                      width: 60.0,
-                      height: 40.0,
-                      fit: BoxFit.fill,
+                Padding(
+                  padding: const EdgeInsets.only(top: 20,),
+                  child: Image.asset('assets/tvlogo.png',
+                        width: 60.0,
+                        height: 40.0,
+                        fit: BoxFit.fill,
+                  ),
                 ),
-                Text('TestVagrant',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 30.0,
+                const Padding(
+                  padding: EdgeInsets.only(top: 20,),
+                  child: Text('TestVagrant',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 30.0,
+                    ),
                   ),
                 ),
               ],
             ),
           ),
           Container(
-            padding: EdgeInsets.only(left: 35, top: 130),
+            padding: EdgeInsets.only(left: 50, top: 130),
             child: Text(
-              'Welcome\nBack',
+              'Welcome Back',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 28.0,
@@ -50,8 +59,10 @@ class logOut extends State<Starter>{
           ),
           SingleChildScrollView(
             child: Container(
-              padding: EdgeInsets.only(top: MediaQuery.of(context).size.height*0.4, left: 35.0, right: 35.0),
+              padding: const EdgeInsets.fromLTRB(50.0, 300.0, 35.0, 0.0),
               child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   TextField(
                     controller: emailField,
@@ -116,14 +127,14 @@ class logOut extends State<Starter>{
                             textColor: Colors.white,
                             fontSize: 16.0
                         );
-                      }, child: Text(
+                      }, child: const Text(
                         'Forgot Password',
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 15.0,
+                          fontSize: 20.0,
                           decoration: TextDecoration.underline,
                           decorationColor: Colors.white,
-                          decorationThickness: 4.0,
+                          decorationThickness: 2.0,
                         ),
                       ),
                       ),
