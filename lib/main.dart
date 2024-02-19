@@ -6,7 +6,6 @@ import 'package:first_project/logOut.dart';
 import 'package:first_project/_logOut.dart';
 import 'package:first_project/pages/PantryDetailsScreen.dart';
 import 'package:flutter/material.dart';
-import 'PantryDetailsScreen.dart';
 
 String userName = "Hey Ajay";
 
