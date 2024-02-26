@@ -1,8 +1,6 @@
-import 'dart:ui';
 
 import 'package:first_project/EquipmentsDetailsPage.dart';
 import 'package:first_project/eventsDetailPage.dart';
-import 'package:first_project/logOut.dart';
 import 'package:first_project/_logOut.dart';
 import 'package:first_project/pages/PantryDetailsScreen.dart';
 import 'package:flutter/material.dart';
@@ -11,24 +9,46 @@ String userName = "Hey Ajay";
 
 // sample@gmail.com
 // pass123
+var kDarkColorScheme = ColorScheme.fromSeed(brightness: Brightness.dark, seedColor: const Color.fromARGB(255, 9, 99, 125));
 
 void main() => runApp(MaterialApp(
+
+  darkTheme: ThemeData.dark().copyWith(
+    colorScheme: kDarkColorScheme,
+    appBarTheme: AppBarTheme(
+      backgroundColor: kDarkColorScheme.onPrimaryContainer,
+      foregroundColor: kDarkColorScheme.primaryContainer,
+    ),
+    cardTheme: const CardTheme().copyWith(
+      color: kDarkColorScheme.onSecondaryContainer,
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(style: ElevatedButton.styleFrom(
+      backgroundColor: kDarkColorScheme.primaryContainer,
+      foregroundColor: kDarkColorScheme.onPrimaryContainer,
+    )),
+    textTheme: TextTheme().copyWith(
+      
+    )
+  ),
+
   debugShowCheckedModeBanner: false,
-  home: Starter()
+  home: const Starter()
 ));
 
 
 class TvHome extends StatelessWidget {
+  const TvHome({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[900],
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.fromLTRB(30.0, 50.0, 20.0, 20.0),
+          padding: const EdgeInsets.fromLTRB(30.0, 50.0, 20.0, 20.0),
           child:  Column(
             children: <Widget>[
-              SizedBox(height: 20.0,),
+              const SizedBox(height: 20.0,),
               Row(
                 children: <Widget>[
                   Expanded(child: Image.asset('assets/tvlogo.png')),
@@ -45,18 +65,18 @@ class TvHome extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => Starter(),
+                          builder: (context) => const Starter(),
                         ),
                       );
                     },
-                    child: Icon(
+                    child: const Icon(
                       Icons.logout,
                       color: Colors.white,
                     ),
                   ),
                 ],
               ),
-              SizedBox(height: 30.0,),
+              const SizedBox(height: 30.0,),
               InkWell(
                 key: const Key('PantryKey'),
                 onTap: () {
@@ -64,7 +84,7 @@ class TvHome extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => PantryDetailsScreen(),
+                      builder: (context) => const PantryDetailsScreen(),
                     ),
                   );
                 },
@@ -102,7 +122,7 @@ class TvHome extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => EquipmentsDetailsPage(),
+                      builder: (context) => const EquipmentsDetailsPage(),
                     ),
                   );
                 },
@@ -132,7 +152,7 @@ class TvHome extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 40.0,),
+              const SizedBox(height: 40.0,),
               InkWell(
                 key: const Key('EventsKey'),
                 onTap: () {
@@ -140,7 +160,7 @@ class TvHome extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => eventsDetailPage(),
+                      builder: (context) => const eventsDetailPage(),
                     ),
                   );
                 },

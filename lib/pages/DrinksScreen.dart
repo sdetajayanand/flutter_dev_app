@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class DrinksScreen extends StatelessWidget{
 
-  final List<Products> product = [
+  final List<Products> product = const[
       Products('Britania', 'assets/britaniaCake.jpeg'),
       Products('GoodDay', 'assets/goodDay.jpg'),
       Products('Namkeen', 'assets/tabletennis.jpg'),
@@ -14,11 +14,13 @@ class DrinksScreen extends StatelessWidget{
       Products('Akshay', 'assets/man.png'),
     ];
 
+  const DrinksScreen({super.key});
+
   @override
   Widget build(context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('Drinks Screen'),
+        title: const Text('Drinks Screen'),
 
       ),
       body: Center(

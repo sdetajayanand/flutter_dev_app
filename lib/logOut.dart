@@ -1,8 +1,6 @@
 import 'package:first_project/main.dart';
 import 'package:first_project/_logOut.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class logOut extends State<Starter>{
 
@@ -15,7 +13,7 @@ class logOut extends State<Starter>{
       body: Stack(
         children: [
           Container(
-            padding: EdgeInsets.only(top: 50.0, left: 20.0,),
+            padding: const EdgeInsets.only(top: 50.0, left: 20.0,),
             child: Row(
               children: <Widget>[
                 Image.asset('assets/tvlogo.png',
@@ -23,7 +21,7 @@ class logOut extends State<Starter>{
                       height: 40.0,
                       fit: BoxFit.fill,
                 ),
-                Text('TestVagrant',
+                const Text('TestVagrant',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 30.0,
@@ -33,8 +31,8 @@ class logOut extends State<Starter>{
             ),
           ),
           Container(
-            padding: EdgeInsets.only(left: 35, top: 130),
-            child: Text(
+            padding: const EdgeInsets.only(left: 35, top: 130),
+            child: const Text(
               'Welcome\nBack',
               style: TextStyle(
                 color: Colors.white,
@@ -63,7 +61,7 @@ class logOut extends State<Starter>{
                     controller: passwordField,
                     obscureText: true,
                     decoration: InputDecoration(
-                        fillColor: Color.fromARGB(255, 232, 217, 217),
+                        fillColor: const Color.fromARGB(255, 232, 217, 217),
                         hintText: 'PASSWORD',
                         filled: true,
                         border: OutlineInputBorder(
@@ -90,10 +88,10 @@ class logOut extends State<Starter>{
                           onPressed: () {
                             if(emailField.text == 'sample@gmail.com' && passwordField.text == 'pass123')
                               {
-                                Navigator.push(context, MaterialPageRoute(builder: (context)=> TvHome()));
+                                Navigator.push(context, MaterialPageRoute(builder: (context)=> const TvHome()));
                               }
                           },
-                          icon: Icon(Icons.arrow_forward),
+                          icon: const Icon(Icons.arrow_forward),
                           
                         )
                       )
@@ -101,7 +99,7 @@ class logOut extends State<Starter>{
                   ),
                   Row(
                     children: [
-                      TextButton(onPressed: () {}, child: Text(
+                      TextButton(onPressed: () {}, child: const Text(
                         'Forgot Password',
                         style: TextStyle(
                           color: Colors.white,

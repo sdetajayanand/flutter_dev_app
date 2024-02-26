@@ -3,7 +3,6 @@
 
 import 'package:first_project/classes/Products.dart';
 import 'package:first_project/side_bar.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class PantryDetailsScreen extends StatefulWidget {
@@ -31,14 +30,16 @@ class _pantryDetails extends State<PantryDetailsScreen>{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: navBar(),
+      drawer: const navBar(),
       appBar: AppBar(
         title: const Text('Pantry Details'),
         actions: [
           Stack(
             children: [
-              IconButton(onPressed: (){}, icon: const Icon(Icons.shopping_cart),iconSize: 35,),
-              cartItem!=0 ? Positioned(right:8, top: 8, child: CircleAvatar(backgroundColor: Colors.redAccent,radius: 10, child: Text(cartItem.toString(), style: TextStyle(color: Colors.white),))) : SizedBox(), 
+              IconButton(onPressed: (){
+                
+              }, icon: const Icon(Icons.shopping_cart),iconSize: 35,),
+              cartItem!=0 ? Positioned(right:8, top: 8, child: CircleAvatar(backgroundColor: Colors.redAccent,radius: 10, child: Text(cartItem.toString(), style: const TextStyle(color: Colors.white),))) : const SizedBox(), 
             ],
           )
         ],
@@ -64,7 +65,7 @@ class _pantryDetails extends State<PantryDetailsScreen>{
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text(product[index].name),
+                          Text(product[index].name, style: TextStyle(color: Colors.black),),
                           ElevatedButton(
                             onPressed: () {
                               setState(() {

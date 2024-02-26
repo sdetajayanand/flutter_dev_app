@@ -1,0 +1,1 @@
+ /Users/testvagrant/Desktop/pantry_app/flutter_dev_app/.dart_tool/flutter_build/c64995c7927fd77b4ac121847f54d64f/native_assets.yaml: 
