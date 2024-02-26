@@ -1,5 +1,6 @@
 import 'package:first_project/classes/Products.dart';
 import 'package:first_project/pages/cart.dart';
+import 'package:first_project/side_bar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -45,6 +46,7 @@ class _pantryDetails extends State<PantryDetailsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: const navBar(),
       appBar: AppBar(
         title: const Text('Pantry Details'),
       ),

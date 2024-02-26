@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.first_project.app-mergeDebugResources-11:/values-ms/values-ms.xml",
+            "outputFile": "com.example.first_project.app-mergeDebugResources-12:/values-ms/values-ms.xml",
             "map": [
                 {
                     "source": "/Users/TestVagrant-1/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/res/values-ms/values-ms.xml",

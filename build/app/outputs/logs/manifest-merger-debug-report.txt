@@ -29,9 +29,11 @@ INJECTED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/andro
 MERGED from /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:1:1-33:12
 MERGED from [:geolocator_android] /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:fluttertoast] /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:webview_flutter_android] /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/f805ca68335f6a1f386399cde6392531/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/4882e53c3e8c69fa33658eea453a5589/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.webkit:webkit:1.7.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/326a0ff5cac53f0d4ddc30e864813e5a/transformed/webkit-1.7.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/6af0d83cef893bf594854174ac5ef84c/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/70d0416cbfee48cd3d9445df5485c123/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
@@ -76,12 +78,16 @@ MERGED from [:geolocator_android] /Users/TestVagrant-1/Documents/Flutter/project
 MERGED from [:geolocator_android] /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:fluttertoast] /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:fluttertoast] /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/fluttertoast/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] /Users/TestVagrant-1/Documents/Flutter/projects/firstProject/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/f805ca68335f6a1f386399cde6392531/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/f805ca68335f6a1f386399cde6392531/transformed/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/4882e53c3e8c69fa33658eea453a5589/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/4882e53c3e8c69fa33658eea453a5589/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.7.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/326a0ff5cac53f0d4ddc30e864813e5a/transformed/webkit-1.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.webkit:webkit:1.7.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/326a0ff5cac53f0d4ddc30e864813e5a/transformed/webkit-1.7.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/6af0d83cef893bf594854174ac5ef84c/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
