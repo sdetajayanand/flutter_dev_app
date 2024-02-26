@@ -68,6 +68,22 @@
 60-->[androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
 61            android:required="false" />
 61-->[androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-62    </application>
-63
-64</manifest>
+62
+63        <activity
+63-->[com.google.android.gms:play-services-base:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+64            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+64-->[com.google.android.gms:play-services-base:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+65            android:exported="false"
+65-->[com.google.android.gms:play-services-base:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+66            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+66-->[com.google.android.gms:play-services-base:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+67
+68        <meta-data
+68-->[com.google.android.gms:play-services-basement:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/76e95b60922d0890103c20420403afe1/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+69            android:name="com.google.android.gms.version"
+69-->[com.google.android.gms:play-services-basement:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/76e95b60922d0890103c20420403afe1/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+70            android:value="@integer/google_play_services_version" />
+70-->[com.google.android.gms:play-services-basement:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/76e95b60922d0890103c20420403afe1/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+71    </application>
+72
+73</manifest>

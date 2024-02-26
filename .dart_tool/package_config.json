@@ -74,6 +74,36 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "geolocator",
+      "rootUri": "file:///Users/TestVagrant-1/.pub-cache/hosted/pub.dev/geolocator-7.7.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "geolocator_android",
+      "rootUri": "file:///Users/TestVagrant-1/.pub-cache/hosted/pub.dev/geolocator_android-2.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "geolocator_apple",
+      "rootUri": "file:///Users/TestVagrant-1/.pub-cache/hosted/pub.dev/geolocator_apple-1.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "geolocator_platform_interface",
+      "rootUri": "file:///Users/TestVagrant-1/.pub-cache/hosted/pub.dev/geolocator_platform_interface-2.3.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "geolocator_web",
+      "rootUri": "file:///Users/TestVagrant-1/.pub-cache/hosted/pub.dev/geolocator_web-2.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "lints",
       "rootUri": "file:///Users/TestVagrant-1/.pub-cache/hosted/pub.dev/lints-3.0.0",
       "packageUri": "lib/",
@@ -102,6 +132,12 @@
       "rootUri": "file:///Users/TestVagrant-1/.pub-cache/hosted/pub.dev/path-1.8.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///Users/TestVagrant-1/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
     },
     {
       "name": "sky_engine",
@@ -164,7 +200,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-02-08T06:32:57.341850Z",
+  "generated": "2024-02-26T07:11:15.855936Z",
   "generator": "pub",
   "generatorVersion": "3.2.6"
 }

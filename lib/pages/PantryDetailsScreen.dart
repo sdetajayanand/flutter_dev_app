@@ -1,6 +1,9 @@
 import 'package:first_project/classes/Products.dart';
+import 'package:first_project/pages/cart.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
+import 'logOut.dart';
 
 class PantryDetailsScreen extends StatefulWidget {
   const PantryDetailsScreen({super.key});
@@ -15,27 +18,29 @@ class _pantryDetails extends State<PantryDetailsScreen> {
   String selectedCategory = 'Foods';
 
   final List<Products> foodProducts = [
-    Products('Britania', 'assets/food/britaniaCake.jpeg'),
-    Products('GoodDay', 'assets/food/goodDay.jpg'),
-    Products('Bhujia Sev', 'assets/food/bhujia.jpg'),
-    Products('Chips', 'assets/food/chips.jpg'),
-    Products('Peanuts', 'assets/food/coatedpeanuts.png'),
-    Products('Moong Dal', 'assets/food/moongDal.png'),
+    Products('Britania', 'assets/food/britaniaCake.jpeg', 12),
+    Products('GoodDay', 'assets/food/goodDay.jpg', 10),
+    Products('Bhujia Sev', 'assets/food/bhujia.jpg', 14),
+    Products('Chips', 'assets/food/chips.jpg', 20),
+    Products('Peanuts', 'assets/food/coatedpeanuts.png', 48),
+    Products('Moong Dal', 'assets/food/moongDal.png', 27),
   ];
 
   final List<Products> drinkProducts = [
-    Products('Appi Fizz', 'assets/drinks/appifizz.png'),
-    Products('ButterMilk', 'assets/drinks/buttermilk.png'),
-    Products('Coco Cola', 'assets/drinks/cococola.png'),
-    Products('Maaza', 'assets/drinks/maaza.png'),
-    Products('PaperBoat', 'assets/drinks/paperboat.jpg'),
-    Products('Tropicana', 'assets/drinks/tropicana.jpg'),
+    Products('Appi Fizz', 'assets/drinks/appifizz.png', 32),
+    Products('ButterMilk', 'assets/drinks/buttermilk.png', 9),
+    Products('Coco Cola', 'assets/drinks/cococola.png', 23),
+    Products('Maaza', 'assets/drinks/maaza.png', 67),
+    Products('PaperBoat', 'assets/drinks/paperboat.jpg', 54),
+    Products('Tropicana', 'assets/drinks/tropicana.jpg', 19),
   ];
 
 
   List<Products> get displayedProducts {
   return selectedCategory == 'Foods' ? foodProducts : drinkProducts;
   }
+
+  List<Products> cartProduct = [];
 
   @override
   Widget build(BuildContext context) {
@@ -53,6 +58,25 @@ class _pantryDetails extends State<PantryDetailsScreen> {
               children: [
                 buildCategoryButton('Foods'),
                 buildCategoryButton('Drinks'),
+                Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      InkWell(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => cart(),
+                            ),
+                          );
+                        },
+                        child: Icon(
+                          Icons.add_shopping_cart,
+                          color: Colors.black,
+                        ),
+                      ),
+                    ],
+                  ),
               ],
             ),
           ),
@@ -73,24 +97,29 @@ class _pantryDetails extends State<PantryDetailsScreen> {
                           child: Image.asset(displayedProducts[index].image),
                         ),
                         Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 3.0),
+                          padding: const EdgeInsets.only(left: 30, right: 30),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(displayedProducts[index].name),
-                              ElevatedButton(
-                                onPressed: () {
-                                  // Add button onPressed logic
-                                },
-                                child: const Text('Add'),
-                              ),
+                              Text('\$ ${displayedProducts[index].price}'),
                             ],
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(left: 90),
+                          child: ElevatedButton(
+                            onPressed: () {
+                              // Add button onPressed logic
+                              Products.addItem(displayedProducts[index]);
+                            },
+                            child: const Text('Add'),
                           ),
                         ),
                       ],
                     ),
                   );
-                  }
+                }
           ),
           ),
         ],
