@@ -46,6 +46,7 @@ class _GeoLocation extends State<GeoLocation>{
             ElevatedButton(
               onPressed: (){
                 getCurrentGeoLocation;
+                
                 //_showCoordinates = true;
               },
               child: const Text('Get Your Current Location')),
