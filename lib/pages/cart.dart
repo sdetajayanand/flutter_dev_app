@@ -36,22 +36,50 @@ class _cartDetail extends State<cart> {
                     var productEntry = cartProMap.entries.elementAt(index);
                     var product = productEntry.key;
                     var quantity = productEntry.value;
-                  return ListTile(
-                    leading: Image.asset(product.image),
-                    title: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(product.name),
-                        Text('Qty  ${quantity}'),
-                        Text('\$ ${product.price * quantity}'),
-                      ],
-                    ),
-                    trailing: ElevatedButton(onPressed: (){
-                      setState(() {
-                        cartProMap.remove(product);
-                      });
-                    },child: const Text("Remove"),),
-                  );
+                    return ListTile(
+                      leading: Image.asset(product.image),
+                      title: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(product.name),
+                              ElevatedButton(onPressed: (){
+                                setState(() {
+                                  cartProMap.remove(product);
+                                });
+                              }, child: const Text("Remove"),),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Text('Qty -- ${quantity}'),
+                              SizedBox(width: 5,),
+                              ElevatedButton(onPressed: (){
+                                setState(() {
+                                  //cartProMap.update(product, (value) => quantity++);
+                                  Products.addItem(product);
+                                  //productEntry.value++;
+                                });
+                              }, child: const Text("+"),),
+                              ElevatedButton(onPressed: (){
+                                setState(() {
+                                  if(quantity == 1)
+                                    {
+                                      cartProMap.remove(product);
+                                    }
+                                  Products.reduceItem(product);
+                                });
+                              }, child: const Text("-"),),
+                              SizedBox(width: 40,),
+                              Text('Price ${product.price * quantity}'),
+                            ],
+                          ),
+                          SizedBox(height: 10.0,),
+                        ],
+                      ),
+                    );
                   },
               ),
           ),
