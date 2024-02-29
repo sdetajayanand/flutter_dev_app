@@ -42,6 +42,7 @@ class _pantryDetails extends State<PantryDetailsScreen> {
   }
 
   List<Products> cartProduct = [];
+  static int total = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -112,6 +113,7 @@ class _pantryDetails extends State<PantryDetailsScreen> {
                           padding: const EdgeInsets.only(left: 90),
                           child: ElevatedButton(
                             onPressed: () {
+                              total += displayedProducts[index].price;
                               // Add button onPressed logic
                               Products.addItem(displayedProducts[index]);
                             },

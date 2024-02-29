@@ -27,6 +27,16 @@ class Products {
     }
   }
 
+  static int getTotal()
+  {
+    int total = 0;
+    for(var iterPro in cartProductsMap.entries)
+      {
+        total += iterPro.value * iterPro.key.price;
+      }
+    return total;
+  }
+
   static Map<Products, int> getList() {
     return cartProductsMap;
   }

@@ -1,4 +1,5 @@
 import 'package:first_project/pages/PantryDetailsScreen.dart';
+import 'package:first_project/pages/logOut.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -8,7 +9,7 @@ PantryDetailsScreen pantryDetailsScreen = new PantryDetailsScreen();
 
 
 class cart extends StatefulWidget {
-  const cart ({super.key});
+  const cart ({super.key});  //accept total as an argument
   @override
   State<cart> createState() {
     return _cartDetail();
@@ -17,9 +18,11 @@ class cart extends StatefulWidget {
 
 class _cartDetail extends State<cart> {
 
+  int total = 0;
+  PantryDetailsScreen totVar = PantryDetailsScreen();
+
   //List<Products> cartPro = Products.getList();
   Map<Products, int> cartProMap = Products.getList();
-  int i = 2;
 
   @override
   Widget build(BuildContext context) {
@@ -72,8 +75,8 @@ class _cartDetail extends State<cart> {
                                   Products.reduceItem(product);
                                 });
                               }, child: const Text("-"),),
-                              SizedBox(width: 40,),
                               Text('Price ${product.price * quantity}'),
+                              SizedBox(width: 10,),
                             ],
                           ),
                           SizedBox(height: 10.0,),
@@ -82,6 +85,52 @@ class _cartDetail extends State<cart> {
                     );
                   },
               ),
+          ),
+          Container(
+            padding: EdgeInsets.all(16.0),
+            color: Colors.grey[300],
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text('Total',
+                  style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+                ),
+                Text(Products.getTotal().toString(),
+                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+                ),
+              ],
+            ),
+          ),
+          SizedBox(height: 5,),
+          InkWell(
+
+            onTap: () {
+              // Navigate to PantryDetailsScreen when clicked
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => Starter(),
+                ),
+              );
+            },
+
+            child: Container(
+              decoration: BoxDecoration(
+                border: Border.all(color: Colors.greenAccent, width: 2.0),
+                borderRadius: BorderRadius.circular(10.0),
+                color: Colors.blue[250],
+              ),
+              padding: EdgeInsets.all(16.0),
+              //color: Colors.blue[300],
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text('Checkout',
+                    style: TextStyle(fontSize: 19.0, fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
           ),
         ],
       )
