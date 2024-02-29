@@ -49,7 +49,7 @@ class _GeoLocation extends State<GeoLocation>{
                 //_showCoordinates = true;
               },
               child: const Text('Get Your Current Location')),
-              _position!=null ? Text(_position.toString()) : Text('No Data'),
+              _position!=null ? Text(_position.toString()) : const Text('No Data'),
           ],
         ),
       ),

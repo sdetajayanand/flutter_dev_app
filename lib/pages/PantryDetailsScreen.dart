@@ -1,10 +1,8 @@
 import 'package:first_project/classes/Products.dart';
 import 'package:first_project/pages/cart.dart';
 import 'package:first_project/side_bar.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'logOut.dart';
 
 class PantryDetailsScreen extends StatefulWidget {
   const PantryDetailsScreen({super.key});
@@ -55,7 +53,7 @@ class _pantryDetails extends State<PantryDetailsScreen> {
         children: [
           // Category selection row
           Padding(
-            padding: EdgeInsets.all(16.0),
+            padding: const EdgeInsets.all(16.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -69,11 +67,11 @@ class _pantryDetails extends State<PantryDetailsScreen> {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => cart(),
+                              builder: (context) => const cart(),
                             ),
                           );
                         },
-                        child: Icon(
+                        child: const Icon(
                           Icons.add_shopping_cart,
                           color: Colors.black,
                         ),
@@ -145,7 +143,7 @@ class _pantryDetails extends State<PantryDetailsScreen> {
             width: 50.0,
             height: 50.0,
           ),
-          SizedBox(height: 8.0),
+          const SizedBox(height: 8.0),
           Text(category),
         ],
       ),

@@ -1,9 +1,14 @@
 # This is a generated file; do not edit or check into version control.
-fluttertoast=/Users/TestVagrant-1/.pub-cache/hosted/pub.dev/fluttertoast-8.2.4/
-geolocator=/Users/TestVagrant-1/.pub-cache/hosted/pub.dev/geolocator-7.7.1/
-geolocator_android=/Users/TestVagrant-1/.pub-cache/hosted/pub.dev/geolocator_android-2.1.0/
-geolocator_apple=/Users/TestVagrant-1/.pub-cache/hosted/pub.dev/geolocator_apple-1.2.2/
-geolocator_web=/Users/TestVagrant-1/.pub-cache/hosted/pub.dev/geolocator_web-2.0.6/
-webview_flutter=/Users/TestVagrant-1/.pub-cache/hosted/pub.dev/webview_flutter-4.7.0/
-webview_flutter_android=/Users/TestVagrant-1/.pub-cache/hosted/pub.dev/webview_flutter_android-3.15.0/
-webview_flutter_wkwebview=/Users/TestVagrant-1/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.12.0/
+fluttertoast=/Users/testvagrant/.pub-cache/hosted/pub.dev/fluttertoast-8.2.4/
+geolocator=/Users/testvagrant/.pub-cache/hosted/pub.dev/geolocator-7.7.1/
+geolocator_android=/Users/testvagrant/.pub-cache/hosted/pub.dev/geolocator_android-2.1.0/
+geolocator_apple=/Users/testvagrant/.pub-cache/hosted/pub.dev/geolocator_apple-1.2.2/
+geolocator_web=/Users/testvagrant/.pub-cache/hosted/pub.dev/geolocator_web-2.0.6/
+path_provider=/Users/testvagrant/.pub-cache/hosted/pub.dev/path_provider-2.1.2/
+path_provider_android=/Users/testvagrant/.pub-cache/hosted/pub.dev/path_provider_android-2.2.2/
+path_provider_foundation=/Users/testvagrant/.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.2/
+path_provider_linux=/Users/testvagrant/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+path_provider_windows=/Users/testvagrant/.pub-cache/hosted/pub.dev/path_provider_windows-2.2.1/
+webview_flutter=/Users/testvagrant/.pub-cache/hosted/pub.dev/webview_flutter-4.7.0/
+webview_flutter_android=/Users/testvagrant/.pub-cache/hosted/pub.dev/webview_flutter_android-3.15.0/
+webview_flutter_wkwebview=/Users/testvagrant/.pub-cache/hosted/pub.dev/webview_flutter_wkwebview-3.12.0/

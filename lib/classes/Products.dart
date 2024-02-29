@@ -1,4 +1,3 @@
-import 'dart:ui';
 
 class Products {
   final String name;

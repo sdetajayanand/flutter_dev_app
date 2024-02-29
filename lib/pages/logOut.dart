@@ -1,7 +1,5 @@
 import 'package:first_project/pages/homePage.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 class Starter extends StatefulWidget {
@@ -48,8 +46,8 @@ class _logOut extends State<Starter>{
             ),
           ),
           Container(
-            padding: EdgeInsets.only(left: 50, top: 130),
-            child: Text(
+            padding: const EdgeInsets.only(left: 50, top: 130),
+            child: const Text(
               'Welcome Back',
               style: TextStyle(
                 color: Colors.white,
@@ -76,7 +74,7 @@ class _logOut extends State<Starter>{
                     ),
                     textInputAction: TextInputAction.done,
                   ),
-                  SizedBox(height: 30.0,),
+                  const SizedBox(height: 30.0,),
                   TextField(
                     controller: passwordField,
                     obscureText: true,
@@ -89,11 +87,11 @@ class _logOut extends State<Starter>{
                         )
                     ),
                   ),
-                  SizedBox(height: 40.0,),
+                  const SizedBox(height: 40.0,),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text('SIGN IN',
+                      const Text('SIGN IN',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 20.0,
@@ -107,10 +105,10 @@ class _logOut extends State<Starter>{
                           onPressed: () {
                             if(emailField.text == 'sample@gmail.com' && passwordField.text == 'pass123')
                               {
-                                Navigator.push(context, MaterialPageRoute(builder: (context)=> TvHome()));
+                                Navigator.push(context, MaterialPageRoute(builder: (context)=> const TvHome()));
                               }
                           },
-                          icon: Icon(Icons.arrow_forward),
+                          icon: const Icon(Icons.arrow_forward),
                         )
                       )
                     ],

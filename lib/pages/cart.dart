@@ -1,11 +1,11 @@
 import 'package:first_project/pages/PantryDetailsScreen.dart';
+import 'package:first_project/pages/checkoutScreen.dart';
 import 'package:first_project/pages/logOut.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../classes/Products.dart';
 
-PantryDetailsScreen pantryDetailsScreen = new PantryDetailsScreen();
+PantryDetailsScreen pantryDetailsScreen = const PantryDetailsScreen();
 
 
 class cart extends StatefulWidget {
@@ -19,10 +19,10 @@ class cart extends StatefulWidget {
 class _cartDetail extends State<cart> {
 
   int total = 0;
-  PantryDetailsScreen totVar = PantryDetailsScreen();
+  PantryDetailsScreen totVar = const PantryDetailsScreen();
 
   //List<Products> cartPro = Products.getList();
-  Map<Products, int> cartProMap = Products.getList();
+  static Map<Products, int> cartProMap = Products.getList();
 
   @override
   Widget build(BuildContext context) {
@@ -57,8 +57,8 @@ class _cartDetail extends State<cart> {
                           ),
                           Row(
                             children: [
-                              Text('Qty -- ${quantity}'),
-                              SizedBox(width: 5,),
+                              Text('Qty -- $quantity'),
+                              const SizedBox(width: 5,),
                               ElevatedButton(onPressed: (){
                                 setState(() {
                                   //cartProMap.update(product, (value) => quantity++);
@@ -76,10 +76,10 @@ class _cartDetail extends State<cart> {
                                 });
                               }, child: const Text("-"),),
                               Text('Price ${product.price * quantity}'),
-                              SizedBox(width: 10,),
+                              const SizedBox(width: 10,),
                             ],
                           ),
-                          SizedBox(height: 10.0,),
+                          const SizedBox(height: 10.0,),
                         ],
                       ),
                     );
@@ -87,21 +87,21 @@ class _cartDetail extends State<cart> {
               ),
           ),
           Container(
-            padding: EdgeInsets.all(16.0),
+            padding: const EdgeInsets.all(16.0),
             color: Colors.grey[300],
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text('Total',
+                const Text('Total',
                   style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
                 ),
                 Text(Products.getTotal().toString(),
-                style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+                style: const TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
                 ),
               ],
             ),
           ),
-          SizedBox(height: 5,),
+          const SizedBox(height: 5,),
           InkWell(
 
             onTap: () {
@@ -109,7 +109,7 @@ class _cartDetail extends State<cart> {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => Starter(),
+                  builder: (context) => CheckoutScreen(),
                 ),
               );
             },
@@ -120,13 +120,13 @@ class _cartDetail extends State<cart> {
                 borderRadius: BorderRadius.circular(10.0),
                 color: Colors.blue[250],
               ),
-              padding: EdgeInsets.all(16.0),
+              padding: const EdgeInsets.all(16.0),
               //color: Colors.blue[300],
-              child: Row(
+              child: const Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text('Checkout',
-                    style: TextStyle(fontSize: 19.0, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 19.0, fontWeight: FontWeight.bold, color: Colors.white),
                   ),
                 ],
               ),

@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'EquipmentsDetailsPage.dart';
@@ -9,21 +8,23 @@ import 'logOut.dart';
 String userName = "Hey Ajay";
 
 class TvHome extends StatelessWidget {
+  const TvHome({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.grey[900],
         body: SingleChildScrollView(
           child: Padding(
-            padding: EdgeInsets.fromLTRB(30.0, 50.0, 20.0, 20.0),
+            padding: const EdgeInsets.fromLTRB(30.0, 50.0, 20.0, 20.0),
             child:  Column(
               children: <Widget>[
-                SizedBox(height: 20.0,),
+                const SizedBox(height: 20.0,),
                 Row(
                   children: <Widget>[
                     Expanded(child: Image.asset('assets/tvlogo.png')),
                     Text('TestVagrant    |   $userName   |  ',
-                      style: TextStyle(
+                      style: const TextStyle(
                         color: Colors.white,
                         fontSize: 20.0,
                       ),
@@ -34,25 +35,25 @@ class TvHome extends StatelessWidget {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => Starter(),
+                            builder: (context) => const Starter(),
                           ),
                         );
                       },
-                      child: Icon(
+                      child: const Icon(
                         Icons.logout,
                         color: Colors.white,
                       ),
                     ),
                   ],
                 ),
-                SizedBox(height: 30.0,),
+                const SizedBox(height: 30.0,),
                 InkWell(
                   onTap: () {
                     // Navigate to PantryDetailsScreen when clicked
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => PantryDetailsScreen(),
+                        builder: (context) => const PantryDetailsScreen(),
                       ),
                     );
                   },
@@ -68,7 +69,7 @@ class TvHome extends StatelessWidget {
                         height: 20.0,
                         width: 300.0,
                         color: Colors.white,
-                        child: Center(
+                        child: const Center(
                           child: Text(
                             'PANTRY',
                             style: TextStyle(
@@ -82,14 +83,14 @@ class TvHome extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(height: 40.0,),
+                const SizedBox(height: 40.0,),
                 InkWell(
                   onTap: () {
                     // Navigate to PantryDetailsScreen when clicked
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => EquipmentsDetailsPage(),
+                        builder: (context) => const EquipmentsDetailsPage(),
                       ),
                     );
                   },
@@ -105,7 +106,7 @@ class TvHome extends StatelessWidget {
                         height: 20.0,
                         width: 300.0,
                         color: Colors.white,
-                        child: Center(
+                        child: const Center(
                           child: Text(
                             'EQUIPMENTS',
                             style: TextStyle(
@@ -119,14 +120,14 @@ class TvHome extends StatelessWidget {
                     ],
                   ),
                 ),
-                SizedBox(height: 40.0,),
+                const SizedBox(height: 40.0,),
                 InkWell(
                   onTap: () {
                     // Navigate to PantryDetailsScreen when clicked
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => eventsDetailPage(),
+                        builder: (context) => const eventsDetailPage(),
                       ),
                     );
                   },
@@ -142,7 +143,7 @@ class TvHome extends StatelessWidget {
                         height: 20.0,
                         width: 300.0,
                         color: Colors.white,
-                        child: Center(
+                        child: const Center(
                           child: Text(
                             'EVENTS',
                             style: TextStyle(
