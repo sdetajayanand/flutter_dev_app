@@ -1,6 +1,5 @@
 import 'package:first_project/pages/PantryDetailsScreen.dart';
 import 'package:first_project/pages/checkoutScreen.dart';
-import 'package:first_project/pages/logOut.dart';
 import 'package:flutter/material.dart';
 
 import '../classes/Products.dart';
@@ -126,7 +125,7 @@ class _cartDetail extends State<cart> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text('Checkout',
-                    style: TextStyle(fontSize: 19.0, fontWeight: FontWeight.bold, color: Colors.white),
+                    style: TextStyle(fontSize: 19.0, fontWeight: FontWeight.bold,),
                   ),
                 ],
               ),
