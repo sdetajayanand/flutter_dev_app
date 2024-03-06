@@ -1,6 +1,10 @@
 import 'package:first_project/pages/homePage.dart';
+import 'package:first_project/pages/register.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+
+import '../classes/Users.dart';
 
 class Starter extends StatefulWidget {
   const Starter({super.key});
@@ -12,139 +16,198 @@ class Starter extends StatefulWidget {
 
 class _logOut extends State<Starter>{
 
+  static String name = "";
+
+  static String getName()
+  {
+    return name;
+  }
+
   @override
   Widget build(BuildContext context) {
     TextEditingController emailField = TextEditingController();
     TextEditingController passwordField = TextEditingController();
     String displayText = '';
-    return Scaffold(
-      backgroundColor: Colors.blueAccent[400],
-      body: Stack(
-        children: [
-          Container(
-            padding: const EdgeInsets.only(top: 50.0, left: 20.0,),
-            child: Row(
-              children: <Widget>[
-                Padding(
-                  padding: const EdgeInsets.only(top: 20,),
-                  child: Image.asset('assets/tvlogo.png',
-                        width: 60.0,
-                        height: 40.0,
-                        fit: BoxFit.fill,
-                  ),
+    return WillPopScope(
+      onWillPop: () async{
+        bool confirmExit = await showDialog(
+            context: context,
+            builder: (context) => AlertDialog(
+              title: Text('Close App?'),
+              content: Text('Are you sure you want to exit the app?'),
+              actions: <Widget>[
+                TextButton(
+                  onPressed: () => Navigator.of(context).pop(false),
+                  child: Text('No'),
                 ),
-                const Padding(
-                  padding: EdgeInsets.only(top: 20,),
-                  child: Text('TestVagrant',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 30.0,
-                    ),
-                  ),
+                TextButton(
+                  onPressed: () => Navigator.of(context).pop(true),
+                  child: Text('Yes'),
                 ),
               ],
             ),
-          ),
-          Container(
-            padding: const EdgeInsets.only(left: 50, top: 130),
-            child: const Text(
-              'Welcome Back',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 28.0,
-              ),
-            ),
-          ),
-          SingleChildScrollView(
-            child: Container(
-              padding: const EdgeInsets.fromLTRB(50.0, 300.0, 35.0, 0.0),
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  TextField(
-                    controller: emailField,
-                    decoration: InputDecoration(
-                      fillColor: Colors.white,
-                      hintText: 'EMAIL',
-                      filled: true,
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10),
-                      )
-                    ),
-                    textInputAction: TextInputAction.done,
-                  ),
-                  const SizedBox(height: 30.0,),
-                  TextField(
-                    controller: passwordField,
-                    obscureText: true,
-                    decoration: InputDecoration(
-                        fillColor: Colors.white,
-                        hintText: 'PASSWORD',
-                        filled: true,
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(10),
-                        )
+        );
+        if (confirmExit ?? false) {
+          SystemNavigator.pop(); // Use SystemNavigator to exit the app
+        }
+        return false;
+      },
+      child: Scaffold(
+        backgroundColor: Colors.blueAccent[400],
+        body: Stack(
+          children: [
+            Container(
+              padding: const EdgeInsets.only(top: 50.0, left: 20.0,),
+              child: Row(
+                children: <Widget>[
+                  Padding(
+                    padding: const EdgeInsets.only(top: 20,),
+                    child: Image.asset('assets/tvlogo.png',
+                      width: 60.0,
+                      height: 40.0,
+                      fit: BoxFit.fill,
                     ),
                   ),
-                  const SizedBox(height: 40.0,),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      const Text('SIGN IN',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 20.0,
-                          fontWeight: FontWeight.w700,
-                        ),
+                  const Padding(
+                    padding: EdgeInsets.only(top: 20,),
+                    child: Text('TestVagrant',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 30.0,
                       ),
-                      CircleAvatar(
-                        radius: 30.0,
-                        backgroundColor: Colors.white,
-                        child: IconButton(
-                          onPressed: () {
-                            if(emailField.text == 'sample@gmail.com' && passwordField.text == 'pass123')
-                              {
-                                Navigator.push(context, MaterialPageRoute(builder: (context)=> const TvHome()));
-                              }
-                          },
-                          icon: const Icon(Icons.arrow_forward),
-                        )
-                      )
-                    ],
+                    ),
                   ),
-                  Row(
-                    children: [
-                      TextButton(onPressed: () {
-                        Fluttertoast.showToast(
-                            msg: "We can't do anything if you forgot Password",
-                            toastLength: Toast.LENGTH_SHORT,
-                            gravity: ToastGravity.CENTER,
-                            timeInSecForIosWeb: 1,
-                            backgroundColor: Colors.red,
-                            textColor: Colors.white,
-                            fontSize: 16.0
-                        );
-                      }, child: const Text(
-                        'Forgot Password',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 20.0,
-                          decoration: TextDecoration.underline,
-                          decorationColor: Colors.white,
-                          decorationThickness: 2.0,
-                        ),
-                      ),
-                      ),
-                    ],
-                  )
                 ],
               ),
             ),
-          )
-        ],
+            Container(
+              padding: const EdgeInsets.only(left: 50, top: 130),
+              child: const Text(
+                'Welcome Back',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 28.0,
+                ),
+              ),
+            ),
+            SingleChildScrollView(
+              child: Container(
+                padding: const EdgeInsets.fromLTRB(50.0, 300.0, 35.0, 0.0),
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    TextField(
+                      controller: emailField,
+                      decoration: InputDecoration(
+                          fillColor: Colors.white,
+                          hintText: 'EMAIL',
+                          filled: true,
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                          )
+                      ),
+                      textInputAction: TextInputAction.done,
+                    ),
+                    const SizedBox(height: 30.0,),
+                    TextField(
+                      controller: passwordField,
+                      obscureText: true,
+                      decoration: InputDecoration(
+                          fillColor: Colors.white,
+                          hintText: 'PASSWORD',
+                          filled: true,
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(10),
+                          )
+                      ),
+                    ),
+                    const SizedBox(height: 40.0,),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                          InkWell(
+                            onTap: () {
+                              // Navigate to PantryDetailsScreen when clicked
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const register(),
+                                ),
+                              );
+                            },
+                            child: const Text('REGISTER',
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20.0,
+                              fontWeight: FontWeight.w700,
+                            ),
+                            ),
+                          ),
+                        CircleAvatar(
+                            radius: 30.0,
+                            backgroundColor: Colors.white,
+                            child: IconButton(
+                              onPressed: () {
+                                name = Users.getUser(emailField.text, passwordField.text);
+                                if((emailField.text == "sample@gmail.com") && (passwordField.text == "pass123"))
+                                  {
+                                    Navigator.push(context, MaterialPageRoute(builder: (context)=> const TvHome()));
+                                  }
+                                else if(name != "User not found")
+                                  {
+                                    Navigator.push(context, MaterialPageRoute(builder: (context)=> const TvHome()));
+                                  }
+                                else
+                                  {
+                                    Fluttertoast.showToast(
+                                        msg: "User not found",
+                                        toastLength: Toast.LENGTH_SHORT,
+                                        gravity: ToastGravity.CENTER,
+                                        timeInSecForIosWeb: 1,
+                                        backgroundColor: Colors.red,
+                                        textColor: Colors.white,
+                                        fontSize: 16.0
+                                    );
+                                  }
+                              },
+                              icon: const Icon(Icons.arrow_forward),
+                            )
+                        )
+                      ],
+                    ),
+                    Row(
+                      children: [
+                        TextButton(onPressed: () {
+                          Fluttertoast.showToast(
+                              msg: "We can't do anything if you forgot Password",
+                              toastLength: Toast.LENGTH_SHORT,
+                              gravity: ToastGravity.CENTER,
+                              timeInSecForIosWeb: 1,
+                              backgroundColor: Colors.red,
+                              textColor: Colors.white,
+                              fontSize: 16.0
+                          );
+                        }, child: const Text(
+                          'Forgot Password',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20.0,
+                            decoration: TextDecoration.underline,
+                            decorationColor: Colors.white,
+                            decorationThickness: 2.0,
+                          ),
+                        ),
+                        ),
+                      ],
+                    )
+                  ],
+                ),
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
 }
-

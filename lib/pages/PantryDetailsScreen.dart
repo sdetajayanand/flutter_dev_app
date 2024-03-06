@@ -108,7 +108,7 @@ class _pantryDetails extends State<PantryDetailsScreen> {
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.only(left: 90),
+                          padding: const EdgeInsets.only(left: 10),
                           child: ElevatedButton(
                             onPressed: () {
                               total += displayedProducts[index].price;

@@ -13,19 +13,19 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/testvagrant/Desktop/flutter_dev_app/android/app/src/debug/AndroidManifest.xml:6:5-66
-15-->/Users/testvagrant/Desktop/flutter_dev_app/android/app/src/debug/AndroidManifest.xml:6:22-64
+15-->/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/debug/AndroidManifest.xml:6:22-64
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->/Users/testvagrant/Desktop/flutter_dev_app/android/app/src/main/AndroidManifest.xml:3:5-79
-16-->/Users/testvagrant/Desktop/flutter_dev_app/android/app/src/main/AndroidManifest.xml:3:22-76
+16-->/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:3:5-79
+16-->/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:3:22-76
 17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->/Users/testvagrant/Desktop/flutter_dev_app/android/app/src/main/AndroidManifest.xml:4:5-81
-17-->/Users/testvagrant/Desktop/flutter_dev_app/android/app/src/main/AndroidManifest.xml:4:22-78
+17-->/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:4:5-81
+17-->/Users/TestVagrant-1/Documents/Flutter/projects/firstProject/android/app/src/main/AndroidManifest.xml:4:22-78
 18
 19    <application
 20        android:name="android.app.Application"
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.6.0] /Users/testvagrant/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+21-->[androidx.core:core:1.6.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/ic_launcher"
 24        android:label="first_project" >
@@ -63,33 +63,33 @@
 56            android:value="2" />
 57
 58        <uses-library
-58-->[androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+58-->[androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
 59            android:name="androidx.window.extensions"
-59-->[androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+59-->[androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
 60            android:required="false" />
-60-->[androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+60-->[androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
 61        <uses-library
-61-->[androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+61-->[androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
 62            android:name="androidx.window.sidecar"
-62-->[androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+62-->[androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
 63            android:required="false" />
-63-->[androidx.window:window:1.0.0-beta04] /Users/testvagrant/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+63-->[androidx.window:window:1.0.0-beta04] /Users/TestVagrant-1/.gradle/caches/transforms-3/72a52ecceff740dd286ea2f072b84e6f/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
 64
 65        <activity
-65-->[com.google.android.gms:play-services-base:17.0.0] /Users/testvagrant/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+65-->[com.google.android.gms:play-services-base:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-66-->[com.google.android.gms:play-services-base:17.0.0] /Users/testvagrant/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+66-->[com.google.android.gms:play-services-base:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
 67            android:exported="false"
-67-->[com.google.android.gms:play-services-base:17.0.0] /Users/testvagrant/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+67-->[com.google.android.gms:play-services-base:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
 68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-68-->[com.google.android.gms:play-services-base:17.0.0] /Users/testvagrant/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+68-->[com.google.android.gms:play-services-base:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
 69
 70        <meta-data
-70-->[com.google.android.gms:play-services-basement:17.0.0] /Users/testvagrant/.gradle/caches/transforms-3/76e95b60922d0890103c20420403afe1/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+70-->[com.google.android.gms:play-services-basement:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/76e95b60922d0890103c20420403afe1/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 71            android:name="com.google.android.gms.version"
-71-->[com.google.android.gms:play-services-basement:17.0.0] /Users/testvagrant/.gradle/caches/transforms-3/76e95b60922d0890103c20420403afe1/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+71-->[com.google.android.gms:play-services-basement:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/76e95b60922d0890103c20420403afe1/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
 72            android:value="@integer/google_play_services_version" />
-72-->[com.google.android.gms:play-services-basement:17.0.0] /Users/testvagrant/.gradle/caches/transforms-3/76e95b60922d0890103c20420403afe1/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+72-->[com.google.android.gms:play-services-basement:17.0.0] /Users/TestVagrant-1/.gradle/caches/transforms-3/76e95b60922d0890103c20420403afe1/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
 73    </application>
 74
 75</manifest>

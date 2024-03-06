@@ -4,7 +4,24 @@
             "outputFile": "com.example.first_project.app-mergeDebugResources-12:/values-sr/values-sr.xml",
             "map": [
                 {
-                    "source": "/Users/testvagrant/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/res/values-sr/values.xml",
+                    "source": "/Users/TestVagrant-1/.gradle/caches/transforms-3/76e95b60922d0890103c20420403afe1/transformed/jetified-play-services-basement-17.0.0/res/values-sr/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "188",
+                        "endOffsets": "435"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1256",
+                        "endColumns": "188",
+                        "endOffsets": "1440"
+                    }
+                },
+                {
+                    "source": "/Users/TestVagrant-1/.gradle/caches/transforms-3/27cd64ee9751a12aa5dad1904ff954ba/transformed/jetified-play-services-base-17.0.0/res/values-sr/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/testvagrant/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/res/values-sr/values-sr.xml",
+                    "source": "/Users/TestVagrant-1/.gradle/caches/transforms-3/634a232bac91a987abe6ee401ed8312d/transformed/core-1.6.0/res/values-sr/values-sr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -35,23 +52,6 @@
                         "startOffsets": "2764",
                         "endColumns": "100",
                         "endOffsets": "2860"
-                    }
-                },
-                {
-                    "source": "/Users/testvagrant/.gradle/caches/transforms-3/76e95b60922d0890103c20420403afe1/transformed/jetified-play-services-basement-17.0.0/res/values-sr/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "188",
-                        "endOffsets": "435"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1256",
-                        "endColumns": "188",
-                        "endOffsets": "1440"
                     }
                 }
             ]

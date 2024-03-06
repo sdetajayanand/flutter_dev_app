@@ -2,11 +2,11 @@
 import 'package:first_project/pages/geoLocation.dart';
 import 'package:first_project/pages/logOut.dart';
 import 'package:first_project/pages/webViewScreen.dart';
+import 'package:first_project/pages/logOut.dart';
 import 'package:flutter/material.dart';
 
 class navBar extends StatelessWidget{
   const navBar({super.key});
-
 
   @override
   Widget build(context){
